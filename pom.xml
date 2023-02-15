@@ -5,6 +5,7 @@
         <groupId>com.dibros</groupId>
         <artifactId>dibros</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath/>
     </parent>
     <artifactId>discovery</artifactId>
     <name>discovery</name>
@@ -17,11 +18,6 @@
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.dibros</groupId>
-            <artifactId>core</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 
     <repositories>
