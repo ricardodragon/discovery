@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 7081
 spring:
   application:
     name: discovery
@@ -8,4 +8,4 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: https://dibros-eureka.up.railway.app/eureka/
+      defaultZone: http://localhost:${server.port}/eureka/
