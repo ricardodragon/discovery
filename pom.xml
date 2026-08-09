@@ -17,8 +17,8 @@
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
             <exclusions>
                 <exclusion>
-                    <groupId>com.fasterxml.jackson.core</groupId>
-                    <artifactId>jackson-core</artifactId>
+                    <groupId>org.bouncycastle</groupId>
+                    <artifactId>bcprov-jdk18on</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
