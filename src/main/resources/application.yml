@@ -6,6 +6,8 @@ spring:
 eureka:
   client:
     registerWithEureka: false
+    connect-timeout-seconds: 5
+    read-timeout-seconds: 8
     fetchRegistry: false
     service-url:
       defaultZone: http://localhost:${server.port}/eureka
